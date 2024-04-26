@@ -1,7 +1,7 @@
 # AFL 1: Case Study: Library
 
 ## About the Project
-The Library Management System is a Java application that offers a range of features to manage a library. It supports functions such as managing librarians, collections (including books, magazines, and CDs), authors, publishers, library members, and library transactions based on user input.
+The Library Management System is a Java application that offers a range of features to manage a library. It supports functions such as managing librarians, collections (including books, magazines, and CDs), authors, publishers, library members, and library transactions based on user input. The program employs the concept of object-oriented programming (OOP), allowing for a modular design and facilitating code reuse, maintainability, and scalability.
 
 ## User Roles
 Depending on the user's choice at the beginning of the program, different features and operations are available:
@@ -13,34 +13,34 @@ Depending on the user's choice at the beginning of the program, different featur
 ## Colletion Controller
 The `Collection Controller` handles operations related to library collections, such as books, magazines, and CDs:
 
-- **Add Collection**: addKoleksi();
-- **Show All Collections**: tabelKoleksi();
+- **Add Collection**: `addKoleksi();`
+- **Show All Collections**: `tabelKoleksi();`
 
 ## Author & Publisher Controller
 The `Author & Publisher Controller` is responsible for managing operations related to book authors & Publishers:
 
-- **Add Author**: addPengarang();
-- **Show All Authors**: tabelPengarang();
-- **Add Publishers**: addPublisher();
-- **Show All Publishers**: tabel
+- **Add Author**: `addPengarang();`
+- **Show All Authors**: `tabelPengarang();`
+- **Add Publishers**: `addPenerbit();`
+- **Show All Publishers**: `tabelPenerbit();`
 
 ## Librarian Controller
 The `Librarian Controller` manages operations related to librarians:
 
-- **Show All Librarians**: tabelPustakawan();
+- **Show All Librarians**: `tabelPustakawan();`
 
 ## Member Controller
 The `Member Controller` handles operations for library members:
 
-- **Add Member**: addMember();
-- **Show All Members**: tabelMember();
+- **Add Member**: `addMember();`
+- **Show All Members**: `tabelMember();`
 
 ## Transaction Controller
 The `Transaction Controller` manages library transactions, such as borrowing and returning:
 
-- **Add Transaction (Borrow)**: addTransaksi();
-- **Add Transaction (Return)**: addTransaksi();
-- **Show All Transactions**: tabelTransaksi();
+- **Add Transaction (Borrow)**: `addTransaksi();`
+- **Add Transaction (Return)**: `addTransaksi();`
+- **Show All Transactions**: `tabelTransaksi();`
 
 ## Data Output
 The data you input during the program is organized and displayed in table format for clarity. When the program stops, all collected data is written to a text file named `input_output.txt` using a `PrintWriter` object named `out`. This ensures that all data is saved and can be accessed later, providing a persistent record of library-related information.
